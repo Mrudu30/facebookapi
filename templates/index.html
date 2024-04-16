@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceBook Test App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="{{url_for('static',filename='js/main.js')}}"></script>
+</head>
+<body>
+    <h1 style="color: rgb(0, 83, 139);">FaceBook Demo App</h1>
+    <div>
+        <a href="{{url_for('make_a_post')}}">Make a Post</a>
+    </div>
+</body>
+</html>
